@@ -1,4 +1,4 @@
-NAME	= tests
+NAME	= replace
 
 OBJ_DIR	= ./obj
 SRC_DIR = .
@@ -7,7 +7,7 @@ CC 		= c++
 CFLAGS 	= -MP -MMD -I$(SRC_DIR) -Wall -Wextra -Werror -Wpedantic -g -std=c++98
 SHELL	= /bin/sh
 
-SRCS	= main.cpp
+SRCS	= main.cpp Args.cpp replace_all.cpp
 
 all: $(NAME)
 
