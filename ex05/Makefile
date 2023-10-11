@@ -1,4 +1,4 @@
-NAME	= replace
+NAME	= harl
 
 OBJ_DIR	= ./obj
 SRC_DIR = .
