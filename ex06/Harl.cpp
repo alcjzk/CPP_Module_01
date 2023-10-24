@@ -2,10 +2,10 @@
 #include "Harl.hpp"
 
 Harl::t_entry Harl::map[LEVEL_MAX] = {
-    {"DEBUG", &Harl::debug},
-    {"INFO", &Harl::info},
+    {"ERROR", &Harl::error},
     {"WARNING", &Harl::warning},
-    {"ERROR", &Harl::error}
+    {"INFO", &Harl::info},
+    {"DEBUG", &Harl::debug}
 };
 
 int Harl::level_int(const std::string &level)
